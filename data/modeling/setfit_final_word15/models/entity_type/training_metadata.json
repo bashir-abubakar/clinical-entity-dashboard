@@ -1,0 +1,23 @@
+{
+  "task": "entity_type",
+  "model_id": "BAAI/bge-small-en-v1.5",
+  "model_directory": "data\\modeling\\setfit_final_word15\\models\\entity_type",
+  "training_rows": 595,
+  "distinct_notes": 91,
+  "labels": [
+    "DIAGNOSIS",
+    "MEDICATION",
+    "SYMPTOM"
+  ],
+  "class_counts": {
+    "DIAGNOSIS": 261,
+    "SYMPTOM": 176,
+    "MEDICATION": 158
+  },
+  "runtime_seconds": 76.85743450000882,
+  "verification_predictions": [
+    "SYMPTOM",
+    "DIAGNOSIS",
+    "SYMPTOM"
+  ]
+}

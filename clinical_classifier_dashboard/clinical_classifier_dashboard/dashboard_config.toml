@@ -1,0 +1,13 @@
+[paths]
+project_root = "../.."
+setfit_entity_type_dir = "data/modeling/setfit_final_word15/models/entity_type"
+protonet_context_dir = "data/modeling/protonet_context_grouped_cv_20260806/models/final/context/final"
+setfit_development_csv = ""
+protonet_development_csv = ""
+
+[app]
+device = "cpu"
+context_words = 15
+max_length = 256
+top_k_examples = 3
+max_explanation_words = 40

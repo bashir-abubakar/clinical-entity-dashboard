@@ -1,0 +1,8 @@
+{
+  "labels": [
+    "DIAGNOSIS",
+    "MEDICATION",
+    "SYMPTOM"
+  ],
+  "normalize_embeddings": false
+}

@@ -37,3 +37,5 @@ models/
 outputs/
 *_local_only.*
 *.zip
+
+**/dashboard_config.local.toml
