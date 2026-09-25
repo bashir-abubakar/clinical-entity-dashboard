@@ -1,0 +1,39 @@
+# Generated: 2026-07-10 18:00 BST
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+data/
+artifacts/
+models/
+outputs/
+*.csv
+*.csv.gz
+*.parquet
+*.feather
+*.pkl
+*.joblib
+*.pt
+*.bin
+*.safetensors
+discharge*.gz
+radiology*.gz
+
+# local environments and secrets
+.venv*/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+**/secrets.toml
+
+# clinical data and generated outputs
+data/
+models/
+outputs/
+*_local_only.*
+*.zip
